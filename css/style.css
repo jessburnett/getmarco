@@ -347,13 +347,13 @@ section.row {
 	margin-top: .50rem;
 }
 
-#privacy-page main.container-fluid {
+#privacy-page main.container-fluid, #terms-page main.container-fluid {
 	padding: 5rem;
   text-align: justify!important;
 	color: #000;
 }
 
-#privacy-page  h4 {
+#privacy-page  h4, #terms-page h4 {
 	color: #4a4a4a;
 	margin: 1rem 0rem;
 	font-size: 1.25rem;
