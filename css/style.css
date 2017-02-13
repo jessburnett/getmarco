@@ -32,6 +32,11 @@ body.container-fluid {
 .intro-video, .intro-video iframe {
 	width: 100%;
 }
+
+.intro-video-still {
+	height: 575px;
+	background: url('../assets/thebestway-2.jpg') no-repeat center center scroll;
+}
 		
 .discover {
 	background-color: #e67c7c;
@@ -75,7 +80,7 @@ button {
 }
 
 .logo {
-	width: 23%;
+	width: 20%;
 	
 }		
 
@@ -88,7 +93,7 @@ button {
 .navbar-header span {
 	color: white;
     font-size: 2.50rem;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 5px;
     vertical-align: middle;
 }
