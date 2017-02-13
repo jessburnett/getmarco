@@ -4,8 +4,11 @@ body.container-fluid {
 	margin: 0px;
 	padding: 0px;
 }
-		
-		
+
+.intro {
+	margin-top: -295px!important;
+}
+
 .image-bg-fixed-height {
 	text-align: center;
 	-webkit-background-size: cover;
@@ -35,7 +38,41 @@ body.container-fluid {
 }
 
 .intro-video-still {
-	max-height: 575px;
+	/*max-height: 575px!important;*/
+}
+
+.intro-video-still img{
+	width: 100%;
+}
+
+.text { font-size: 1rem }
+
+.intro-video-still {
+	width:100%;
+  	margin:1rem auto;
+  	position: relative;
+}
+
+.text {
+	width: 100%;	
+  	background:rgba(255,255,255,0.5);
+  	position: absolute;
+  	top:50%;
+  	left:0;
+  	padding:1rem;
+  	transform:translateY(-50%);
+  	text-align: center;
+}
+
+.intro-video-still .text {
+	text-transform: uppercase;
+}
+
+@media screen and (max-width:680px){
+  .text {font-size: 0.8rem}
+}
+@media screen and (max-width:540px){
+  .text {font-size: 0.7rem}
 }
 		
 .discover {
@@ -300,8 +337,4 @@ section.row .container-fluid {
  
 section.row {
 	margin-top: .50rem;
-}
-
-section.row p {
-	width: 75%;
 }
