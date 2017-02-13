@@ -43,19 +43,6 @@ body.container-fluid {
 	color: #fff;
 }
 
-.reserve {
-	background-color: #3aa19B;
-	color: #fff;
-}
-
-.relax img {
-	width: 100%;
-	margin-left: 60px;
-}
-
-.signup {
-	color: #fff;
-}
 
 button {
 	margin: 1em 0em;
@@ -181,18 +168,49 @@ footer ul > li > a:hover {
 	margin-left: 10rem;
 }
 		
-button.btn {
+.discover button.btn {
     color: white;
     background-color: transparent;
 	border: 1px solid white;
 	border-radius: 2px;
   	text-transform: uppercase;
+  	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
-button.btn:hover {
-    font-weight: bold;
+.discover button.btn:hover {
+  	background-color: white;
+  	color: #e67c7c;
+}
+
+.reserve {
+	background-color: #3aa19B;
+	color: #fff;
+}
+
+.reserve button.btn {
+    color: white;
+    background-color: transparent;
 	border: 1px solid white;
-  	background-color: transparent;	
+	border-radius: 2px;
+  	text-transform: uppercase;
+  	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.reserve button.btn:hover {
+  	background-color: white;
+  	color: #3aa19B;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 section.row h3 {
