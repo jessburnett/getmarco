@@ -5,6 +5,10 @@ body.container-fluid {
 	padding: 0px;
 }
 
+body.container-fluid#privacy-page {
+	color: #000!important;.
+}
+
 .intro {
 	margin-top: -295px!important;
 }
@@ -48,10 +52,11 @@ body.container-fluid {
 .text { font-size: 1rem }
 
 .intro-video-still {
-	width:100%;
+		width:100%;
   	margin:1rem auto;
   	position: relative;
 }
+
 
 .text {
 	width: 100%;	
@@ -99,8 +104,6 @@ button {
 }
 		
 .navbar .container {
-	/*margin-top: 3px;
-	margin-bottom: -15px;*/
 	width: 100%;
 }
 
@@ -114,19 +117,10 @@ button {
 	margin-left: 1rem;
 }
 		
-		
-.navbar-header span {
-	color: white;
-    font-size: 2.50rem;
-    font-weight: 200;
-    letter-spacing: 5px;
-    vertical-align: middle;
-}
-		
 .appstore {
-	float: right;
-	margin-right: -60px;
-    margin-top: -3px;
+		float: right;
+    margin-right: -4rem;
+    margin-top: -3.5rem;
 }
 
 .appstore img { width: 65%; }
@@ -175,6 +169,7 @@ font-weight: bold;
 footer ul, footer ul > li{
 	list-style: none; 
 	text-align: left;
+	 padding: 0.35rem 0rem;
 }
 
 footer ul  > li > a  {
@@ -202,7 +197,7 @@ footer ul > li > a:hover {
 }
 
 .m-l-30 {
-	margin-left: 10rem;
+	margin-left: 16rem;
 }
 		
 .discover button.btn {
@@ -259,6 +254,12 @@ section.row .container-fluid {
 	margin: 3rem 3rem 0rem 15rem;
     text-align: justify;
 }
+
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
 		
 
 /*Extra Small Devices, Phones */
@@ -276,9 +277,16 @@ section.row .container-fluid {
 	}			
 }
 
- @media  (min-width:576px) and (max-width : 980px) {			
+
+ @media  (min-width:980px) and (max-width : 1330px) {			
  		.m-l-30 {
-		margin-left: 3rem!important;;
+		margin-left: 10rem!important;;
+		}
+ }	
+
+ @media  (min-width:576px) and (max-width : 767px) {			
+ 		.m-l-30 {
+		margin-left: 7rem!important;;
 		}
  }	
 
@@ -331,10 +339,27 @@ section.row .container-fluid {
 
 @media (max-width: 767px) and (min-width: 576px){		
 	.m-l-30 {
-		margin-left: 0px!important;
+		margin-left: 7rem!important;
 	}
 }
  
 section.row {
 	margin-top: .50rem;
+}
+
+#privacy-page main.container-fluid {
+	padding: 5rem;
+  text-align: justify!important;
+	color: #000;
+}
+
+#privacy-page  h4 {
+	color: #4a4a4a;
+	margin: 1rem 0rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+#privacy-page .address {
+	margin-top: .5rem;
 }
