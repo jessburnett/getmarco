@@ -368,14 +368,14 @@ section.row {
 }
 
 .img-wrapper .text {
-	width: 100%;	
+		width: 100%;	
   	position: absolute;
   	top:52%;
   	left:0;
   	padding:1rem;
   	transform:translateY(-50%);
-	font-size: 3rem;
+		font-size: 3rem;
   	text-align: center;
-    letter-spacing: 3px;
-    color: white;
+	  letter-spacing: 3px;
+	 color: white;
 }
