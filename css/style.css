@@ -381,3 +381,11 @@ section.row {
     text-decoration: none;
     color: #4a4a4a;
 }
+
+.staff {
+	position: relative;
+}
+
+.staff .img-responsive {
+	margin: 0 auto;
+}
