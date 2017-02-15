@@ -130,8 +130,8 @@ button {
 /********************    footer    *****************/
 
 footer {
+	padding: 2rem 0rem .75rem;
 	background-color: #4a4a4a;
-	padding: 1rem;
 	color: white;
 }
 
@@ -139,33 +139,22 @@ footer .row {
 	text-align: center;
 }
 
-footer ul {
-	margin: 0 auto!important;
-	padding-bottom: .75rem;
-}
-
-footer ul >  li:first-child{
+.foot-header {
 color: white;
 font-size: 1rem;
 font-weight: bold;
-	padding-bottom: .75rem;
+padding-bottom: .75rem;
 }
 
-footer ul, footer ul > li{
-	list-style: none; 
-	text-align: left;
-	 padding: 0.35rem 0rem;
-}
-
-footer ul  > li > a  {
+.foot-links a{
+	display: block;
 	color: white;
-	margin-top: .5rem;
+	padding: .5rem 0rem;
 }
 
-footer a:hover {
-	text-decoration: none;
-	color: #7d7c82;
-	font-weight: bold;
+.foot-links  a:hover, .social-icons a:hover {
+		text-decoration: none;
+	  color: #7d7c82;
 }
 
 .social-icons {
@@ -182,8 +171,8 @@ footer a:hover {
 	font-size:24px;
 }
 
-.m-l-30 {
-	margin-left: 16rem;
+.copyright {
+	font-size: 12px;
 }
 		
 .discover button.btn {
@@ -253,37 +242,6 @@ section.row .container-fluid {
 }
 		
 
-/*Extra Small Devices, Phones */
-@media  (max-width : 575px) {			
-		.m-l-30 {
-			margin-left: -3rem!important;
-		}
-
-		footer ul > li{
-			text-align: center;
-			padding: .75rem;
-		}
-
-	footer ul > li:first-child {
-		font-weight: normal;
-		padding-bottom: .25rem;
-		text-decoration: underline;
-	}			
-}
-
-
- @media  (min-width:980px) and (max-width : 1330px) {			
- 		.m-l-30 {
-		margin-left: 10rem!important;;
-		}
- }	
-
- @media  (min-width:576px) and (max-width : 767px) {			
- 		.m-l-30 {
-		margin-left: 7rem!important;;
-		}
- }	
-
 @media (min-width: 380px) and (max-width: 775px){	
 	.navbar .container {
 		max-height: 50px;
@@ -330,12 +288,7 @@ section.row .container-fluid {
 
 }
 
-@media (max-width: 767px) and (min-width: 576px){		
-	.m-l-30 {
-		margin-left: 7rem!important;
-	}
-}
- 
+
 section.row {
 	margin-top: .25rem;
 }
@@ -377,13 +330,8 @@ section.row {
 }
 
 @media (max-width: 779px) and (min-width: 511px){		
-	
 	.logo { width:23%; }
-	
-
-	
-	main.container-fluid { padding: 1rem; }
-	
+	main.container-fluid { padding: 1rem; }	
 }
 
 @media (max-width: 980px) and (min-width: 776px){		
