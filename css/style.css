@@ -306,7 +306,7 @@ section.row {
 	margin-top: .25rem;
 }
 
-#privacy-page main.container-fluid, #terms-page main.container-fluid {
+#privacy-page main.container-fluid, #terms-page main.container-fluid, #locations-page main.container-fluid {
 	padding: 1rem 3rem;
   	text-align: justify!important;
 	color: #000;
