@@ -351,4 +351,33 @@ section.row {
 	.logo { width: 20%; }
 	main.container-fluid {   padding: 1rem 2rem; }
 	
-}	
+}
+
+#contact-page main .row {
+	padding: 3rem;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.contact-labels {
+    float: right;
+}
+
+.contact-labels title {
+    display: block;
+    font-size: 1rem;
+    margin: .75rem;
+    color: #5bb3a8;
+    text-align: right;
+}
+
+.contact-email a {
+    display: block;
+    margin: .75rem;
+    color: #4a4a4a;
+}
+
+.contact-email a:hover {
+    text-decoration: none;
+    color: #4a4a4a;
+}
