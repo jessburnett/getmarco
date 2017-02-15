@@ -50,7 +50,7 @@ body.container-fluid#privacy-page {
 }
 
 .intro-video-still {
-		width:100%;
+	width:100%;
   	margin:1rem auto;
   	position: relative;
 }
@@ -63,6 +63,7 @@ body.container-fluid#privacy-page {
 @media screen and (max-width:680px){
   .text {font-size: 0.8rem}
 }
+
 @media screen and (max-width:540px){
   .text {font-size: 0.7rem}
 }
@@ -71,7 +72,6 @@ body.container-fluid#privacy-page {
 	background-color: #e67c7c;
 	color: #fff;
 }
-
 
 button {
 	margin: 1em 0em;
@@ -104,14 +104,14 @@ button {
 }
 		
 .appstore {
-		float: right;
+	float: right;
     margin-right: -4rem;
     margin-top: -3.15rem;
 }
 
 .appstore img { width: 65%; }
 
-.appstore  a{
+.appstore  a {
 	color: white;
 }
 
@@ -140,10 +140,10 @@ footer .row {
 }
 
 .foot-header {
-color: white;
-font-size: 1rem;
-font-weight: bold;
-padding-bottom: .75rem;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-bottom: .75rem;
 }
 
 .foot-links a{
@@ -153,8 +153,8 @@ padding-bottom: .75rem;
 }
 
 .foot-links  a:hover, .social-icons a:hover {
-		text-decoration: none;
-	  color: #7d7c82;
+	text-decoration: none;
+	color: #7d7c82;
 }
 
 .social-icons {
@@ -179,15 +179,14 @@ padding-bottom: .75rem;
  /*Extra Small Devices, Phones */
 @media (max-width: 575px) {
 	.foot-header {
-			padding: 1.15rem 0rem;
-			font-size: 1.15rem;
-			letter-spacing: 1px;
+		padding: 1.15rem 0rem;
+		font-size: 1.15rem;
+		letter-spacing: 1px;
 	}
 
 	.foot-link a {
-			padding: .75rem 0rem;
+		padding: .75rem 0rem;
 	}
-	
 }
 		
 .discover button.btn {
@@ -300,7 +299,6 @@ section.row .container-fluid {
 		font-size: 2.5rem!important;
 		letter-spacing: 2px!important;
 	}
-
 }
 
 
@@ -310,7 +308,7 @@ section.row {
 
 #privacy-page main.container-fluid, #terms-page main.container-fluid {
 	padding: 1rem 3rem;
-  text-align: justify!important;
+  	text-align: justify!important;
 	color: #000;
 }
 
@@ -327,21 +325,21 @@ section.row {
 
 .img-wrapper {
 	max-width:100%;
-  margin:4rem auto 0 auto;
-  position: relative;
+  	margin:4rem auto 0 auto;
+  	position: relative;
 }
 
 .img-wrapper .text {
-		width: 100%;	
+	width: 100%;	
   	position: absolute;
   	top:52%;
   	left:0;
   	padding:1rem;
   	transform:translateY(-50%);
-		font-size: 3rem;
+	font-size: 3rem;
   	text-align: center;
-	  letter-spacing: 3px;
-	 color: white;
+	letter-spacing: 3px;
+	color: white;
 }
 
 @media (max-width: 779px) and (min-width: 511px){		
@@ -351,7 +349,6 @@ section.row {
 
 @media (max-width: 980px) and (min-width: 776px){		
 	.logo { width: 20%; }
-	
 	main.container-fluid {   padding: 1rem 2rem; }
 	
 }	
