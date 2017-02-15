@@ -95,9 +95,7 @@ button {
 }
 
 .logo {
-	width: 15%;
-	padding-top: 5px;
-	
+	width: 13%;
 }		
 
 .navbar-header {
@@ -108,7 +106,7 @@ button {
 .appstore {
 		float: right;
     margin-right: -4rem;
-    margin-top: -3.25rem;
+    margin-top: -3.15rem;
 }
 
 .appstore img { width: 65%; }
@@ -263,10 +261,13 @@ section.row .container-fluid {
 
 		footer ul > li{
 			text-align: center;
+			padding: .75rem;
 		}
 
 	footer ul > li:first-child {
-		padding-bottom: 0rem;
+		font-weight: normal;
+		padding-bottom: .25rem;
+		text-decoration: underline;
 	}			
 }
 
@@ -290,22 +291,15 @@ section.row .container-fluid {
 	}
 
 	.navbar-brand img {
-		vertical-align: 0;
-		width: 21%;
-		margin-bottom: 6px;
+		width: 30%;
+		margin-bottom: 3px;
 	}	
-
-	.navbar-header span {
-		display: inline-block!important;
-		vertical-align: top;
-		margin-top: -5px!important;
-	}
 
 	.appstore img {
 		width: 50%;
 		padding: 1px;
 		float: right;
-		margin-right: 15px;
+		margin-right: 60px;
 	}		
 }
 
@@ -317,17 +311,23 @@ section.row .container-fluid {
 	}
 	
 	.navbar-brand img {
-		vertical-align: 0;
-		width: 17%;
-		margin-bottom: 13px;
+		width: 40%;
 	}	
 	
-	.navbar-header span {
-		display: inline-block!important;
-		vertical-align: top;
-		margin-top: -4px!important;
-		font-size: 1.5rem;
+	.appstore {
+		width: 69%;
+		margin-top: -2.85rem;
 	}
+	
+	.img-wrapper {
+    margin: 3.25rem auto 0 auto!important;
+	}
+	
+	.img-wrapper .text {
+		font-size: 2.5rem!important;
+		letter-spacing: 2px!important;
+	}
+
 }
 
 @media (max-width: 767px) and (min-width: 576px){		
@@ -357,13 +357,9 @@ section.row {
 	margin-top: .5rem;
 }
 
-#terms-page.container-fluid .img-wrapper{
-	margin-top: 3rem;
-}
-
 .img-wrapper {
 	max-width:100%;
-  margin:1rem auto;
+  margin:4rem auto 0 auto;
   position: relative;
 }
 
@@ -379,3 +375,20 @@ section.row {
 	  letter-spacing: 3px;
 	 color: white;
 }
+
+@media (max-width: 779px) and (min-width: 511px){		
+	
+	.logo { width:23%; }
+	
+
+	
+	main.container-fluid { padding: 1rem; }
+	
+}
+
+@media (max-width: 980px) and (min-width: 776px){		
+	.logo { width: 20%; }
+	
+	main.container-fluid {   padding: 1rem 2rem; }
+	
+}	
