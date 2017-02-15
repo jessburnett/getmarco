@@ -174,6 +174,21 @@ padding-bottom: .75rem;
 .copyright {
 	font-size: 12px;
 }
+
+
+ /*Extra Small Devices, Phones */
+@media (max-width: 575px) {
+	.foot-header {
+			padding: 1.15rem 0rem;
+			font-size: 1.15rem;
+			letter-spacing: 1px;
+	}
+
+	.foot-link a {
+			padding: .75rem 0rem;
+	}
+	
+}
 		
 .discover button.btn {
     color: white;
