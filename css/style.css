@@ -12,29 +12,6 @@ body.container-fluid#privacy-page {
 .img-center {
 	margin: 0 auto;
 }
-		
-.intro-video, .intro-video iframe {
-	width: 100%;
-}
-
-.intro-video-still {
-	/*max-height: 575px!important;*/
-}
-
-.intro-video-still img{
-	width: 100%;
-}
-
-.intro-video-still {
-	width:100%;
-  	margin:1rem auto;
-  	position: relative;
-}
-
-
-.intro-video-still .text {
-	text-transform: uppercase;
-}
 
 @media screen and (max-width:680px){
   .text {font-size: 0.8rem}
@@ -96,16 +73,37 @@ button {
 	color: white;
 }
 
-
 .navbar-brand {
 	font-size: 2.25rem;
 	padding-top:  0rem;
 	margin-top: -10px;
 }
 
+#intro-video {
+	display: none;
+	margin-top: 4.45rem;
+}
+
+#intro-video, #intro-video iframe {
+	width: 100%;
+}
+
+#intro-video-still img{
+	width: 100%;
+}
+
+#intro-video-still {
+	width:100%;
+  	margin:1rem auto;
+  	position: relative;
+}
+
+#intro-video-still .text {
+	text-transform: uppercase;
+}
 
 /******* header intro *******/
-.intro-header {
+header, .intro {
 	margin-top: 75px;
 }
 
@@ -291,7 +289,7 @@ section.row .container-fluid {
 	}
 	
 	.img-wrapper {
-    margin: 3.25rem auto 0 auto!important;
+    	margin: 3.25rem auto 0 auto!important;
 	}
 	
 	.img-wrapper .text {
@@ -335,7 +333,7 @@ section.row {
   	left:0;
   	padding:1rem;
   	transform:translateY(-50%);
-	font-size: 3rem;
+	font-size: 4rem;
   	text-align: center;
 	letter-spacing: 3px;
 	color: white;
