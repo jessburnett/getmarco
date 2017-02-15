@@ -9,30 +9,6 @@ body.container-fluid#privacy-page {
 	color: #000!important;.
 }
 
-.intro {
-	margin-top: -295px!important;
-}
-
-.image-bg-fixed-height {
-	text-align: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	/*height: 350px;*/
-}
-
-.intro-header { background: url('../assets/thebestway-2.jpg') no-repeat center center scroll; }
-
-.image-text {
-    height: 100%;
-    line-height: 25rem;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-	font-size: 1.5rem;
-}
-
 .img-center {
 	margin: 0 auto;
 }
@@ -126,6 +102,29 @@ button {
 	padding-top:  0rem;
 	margin-top: -10px;
 }
+
+
+/******* header intro *******/
+.intro-header {
+	margin-top: 75px;
+}
+
+.intro-header .img-wrapper {
+	position: relative;
+	padding-bottom: 20%;
+	height: 0;
+}
+
+.intro-header .img-wrapper .img-responsive {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: teal;
+	
+}
+
 		
 /********************    footer    *****************/
 
@@ -332,7 +331,7 @@ section.row {
 .img-wrapper .text {
 	width: 100%;	
   	position: absolute;
-  	top:52%;
+  	top:50%;
   	left:0;
   	padding:1rem;
   	transform:translateY(-50%);
