@@ -82,6 +82,7 @@ button {
 #intro-video {
 	display: none;
 	margin-top: 4.45rem;
+	margin-bottom: -.15rem;
 }
 
 #intro-video, #intro-video iframe {
