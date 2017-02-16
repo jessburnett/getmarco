@@ -5,7 +5,7 @@ body.container-fluid {
 	padding: 0px;
 }
 
-body.container-fluid#privacy-page {
+body.container-fluid#privacy-page, body.container-fluid#reset-password-page {
 	color: #000!important;.
 }
 
@@ -285,6 +285,46 @@ input {
     padding: .5rem 2rem;
 }
 
+#reset-password-page button.btn {
+	font-size: 12px;
+	text-transform: none;
+  	background-color: white;
+  	color: #e67c7c;
+	border: 1px solid #e67c7c!important;
+	border-radius: 2px;
+  	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#reset-password-page button.btn:hover {
+	color: white;
+	background-color: #e67c7c;
+	font-weight: 400;
+}
+
+#reset-password-page form {
+	text-align: center;
+	font-size: 12px;
+}
+
+#reset-password-page .form-group label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 50%;
+    float: left;
+    text-align: right;
+    color: #e67c7c;
+}
+
+#reset-password-page .form-group input {
+    display: inline-block;
+    margin-bottom: .5rem;
+    width: 50%;
+    float: left;
+}
+
 section.row h2 {
 	margin-bottom: 1rem;
 	letter-spacing: 2px;
@@ -293,6 +333,10 @@ section.row h2 {
 section.row .container-fluid {
 	margin: 3rem 3rem 0rem 15rem;
     text-align: justify;
+}
+
+#reset-password-page {
+	font-color: black!important;
 }
 
 /***** row & column center helpers ********/
@@ -401,7 +445,7 @@ section.row {
   	left:0;
   	padding:1rem;
   	transform:translateY(-50%);
-	font-size: 4rem;
+	font-size: 3rem;
   	text-align: center;
 	letter-spacing: 3px;
 	color: white;
