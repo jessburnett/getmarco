@@ -124,6 +124,17 @@ header, .intro {
 	
 }
 
+.relax .text p {
+	font-size: 1rem;
+	letter-spacing: 0px;
+	padding: 2rem 15rem;
+	text-align: justify;
+}
+
+.relax .text div{
+	margin-top: -2.5rem;
+}
+
 		
 /********************    footer    *****************/
 
@@ -187,16 +198,22 @@ footer .row {
 	}
 }
 		
-.discover button.btn {
+button.btn {
     color: white;
     background-color: transparent;
-	border: 1px solid white;
+	border: 1px solid white!important;
 	border-radius: 2px;
   	text-transform: uppercase;
   	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
+}
+
+button.btn:hover {
+	color: black;
+	background-color: white;
+	font-weight: 400;
 }
 
 .discover button.btn:hover {
@@ -209,22 +226,12 @@ footer .row {
 	color: #fff;
 }
 
-.reserve button.btn {
-    color: white;
-    background-color: transparent;
-	border: 1px solid white;
-	border-radius: 2px;
-  	text-transform: uppercase;
-  	-moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-}
-
 .reserve button.btn:hover {
   	background-color: white;
   	color: #3aa19B;
 }
+
+.relax .img-wrapper { margin: 0px; }
 
 .btn.focus, .btn:focus {
     outline: 0;
