@@ -287,6 +287,7 @@ input {
 
 #reset-password-page button.btn {
 	font-size: 12px;
+	font-weight: bold;
 	text-transform: none;
   	background-color: white;
   	color: #e67c7c;
@@ -301,27 +302,50 @@ input {
 #reset-password-page button.btn:hover {
 	color: white;
 	background-color: #e67c7c;
-	font-weight: 400;
+	font-weight: bold;
 }
 
 #reset-password-page form {
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
+	margin: 3rem auto 4rem auto;
+}
+
+#reset-password-page form  .container {
+	margin-left: -10.5rem;
+	margin-top: 3rem;
+	padding-bottom: 1px;
+}
+
+#reset-password-page form p {
+	color: #4a4a4a;
+}
+
+#reset-password-page .form-group {
+    margin: 2rem;
 }
 
 #reset-password-page .form-group label {
     display: inline-block;
     margin-bottom: .5rem;
+    padding-top: .50rem;
+    padding-right: 1.5rem;
     width: 50%;
     float: left;
     text-align: right;
     color: #e67c7c;
+    font-weight: bold;
+}
+
+
+#reset-password-page button.btn {
+    margin-top: 3.5rem;
 }
 
 #reset-password-page .form-group input {
     display: inline-block;
     margin-bottom: .5rem;
-    width: 50%;
+    width: 33%;
     float: left;
 }
 
@@ -339,7 +363,8 @@ section.row .container-fluid {
 	font-color: black!important;
 }
 
-/***** row & column center helpers ********/
+/*****  helpers ********
+/***** row & column center ********/
 .col-centered {
     float: none;
     margin: 0 auto;
@@ -350,6 +375,11 @@ section.row .container-fluid {
     position: absolute;
   	top: 50%; left: 50%;
   	transform: translate(-50%,-50%);
+}
+
+/*****clear ********/
+.clear {
+	clear: both;
 }
 
 .img-wrapper img {
