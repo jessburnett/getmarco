@@ -78,10 +78,18 @@ button {
 	margin-top: -10px;
 }
 
+#home header {
+	margin-top: 75px;
+}
+
 #intro-video {
-	/*display: none;*/
+	display: none;
 	margin-top: 4.45rem;
 	margin-bottom: -.15rem;
+}
+
+.video-wrapper {
+	margin-top: 1rem!important;
 }
 
 #intro-video, #intro-video iframe {
@@ -89,23 +97,26 @@ button {
 }
 
 #intro-video-still img{
-	width: 100%;
+	   display: inline-block;
 }
 
 #intro-video-still {
 	width:100%;
-  	margin:0rem auto;
-  	position: relative;
+	margin: 0rem auto -1rem auto;
 }
 
 #intro-video-still .text {
 	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+#intro-video-still i {
+		margin: 0rem 4rem;
+    font-size: 3.25rem;
+    vertical-align: middle;
 }
 
 /******* header intro *******/
-header, .intro {
-	margin-top: 75px;
-}
 
 .intro-header .img-wrapper {
 	position: relative;
@@ -136,19 +147,50 @@ header, .intro {
 
 
 /***** index sections *****/
-.discover .container {
-    background-color: #e67c7c;
+.container {
     padding: 0;
     width: 100%;
 }
 
-.section-content {
-	width: 65%;
+.discover {
+		margin-top: -1.25rem;
 }
 
-.discover .section-content {
-	float: right;
+.discover .section-content, .relax .section-content {
+	margin-left: 12rem;
 }
+
+.reserve .section-content, .join .section-content {
+	margin-left: 0rem;
+	margin-right: 12rem;
+}
+
+section {
+	margin-bottom: .25rem;
+}
+
+.section-content p {
+	margin: 2rem 0rem;
+}
+
+.section-content input {
+	   margin: 0rem 0rem 2.5rem 0rem;
+		width: 75%;
+}
+
+.discover .container, .join .container {
+	    background-color: #e67c7c;
+}
+
+.reserve .container {
+	background-color: #3aa19B;
+}
+
+.relax .container {
+	background-color: #f4ca5c;
+}
+
+
 
 /*****  helpers ********
 
@@ -278,23 +320,20 @@ footer .row {
 		padding: .75rem 0rem;
 	}
 }
+
+
+/*********	buttons			***********/
 		
 a.btn, button.btn {
     color: white;
     background-color: transparent;
-	border: 1px solid white!important;
-	border-radius: 2px;
+		border: 1px solid white!important;
+		border-radius: 2px;
   	text-transform: uppercase;
   	-moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-}
-
-.join a.btn:hover, .discover a.btn:hover, button.btn:hover {
-	color: #e67c7c;
-	background-color: white;
-	font-weight: 400;
 }
 
 a.btn:hover, button.btn:hover {
@@ -308,6 +347,20 @@ a.btn:hover, button.btn:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+.join a.btn:hover, .discover a.btn:hover, button.btn:hover {
+	color: #e67c7c;
+}
+
+.reserve a.btn:hover {
+	color: #3aa19b;
+}
+
+.relax a.btn:hover {
+	color: #f4ca5c;
+}
+
+.join a.btn { padding: .5rem 2rem; }
 
 input {
 	border-radius: 2px;
