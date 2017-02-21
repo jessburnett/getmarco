@@ -99,50 +99,6 @@ a:hover{
 	text-decoration: none;
 }
 
-@media  only screen and ( max-width: 620px ) {
-    /* For mobile phones: */
-  .navbar {
-    padding-top: 3px!important;   
-    height: 36px!important;
-  } 
-  
-  .navbar a {
-    padding: 0 4px!important;
-  }
-  
-  .navbar-left {
-    position: relative;
-    z-index: 1;
-    width: 10%!important;
-    margin-left: 10px!important;
-  }
-  
-  .navbar-center {
-    width: 80%!important;
-    margin-top: 6px!imporant;
-  }
-  
-  .navbar-center  {
-    width: 70%;
-  }
-  
-  .navbar-right {
-    margin-right: 0px!important;
-    width: 10%!important;
-  }
-  
-  .navbar-left .logo {
-    font-size: 3em!important;
-  }
-  
-}
-  @media only screen and (min-width: 798px) {
-    /* For tablets: */
-    .navbar-center a {
-      padding: 0px 2em;
-   }
-}
-
 
 #home header {
 	margin-top: 75px;
