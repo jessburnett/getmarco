@@ -14,26 +14,18 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/media-queries.css">
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
 
 <body class="container-fluid" id="home">
-	<nav class="navbar navbar-default">
-		<div class="container">
-			<div class="navbar-header ">
-				<a class="navbar-brand" href="#">
-					<img class="logo img-responsive" alt="logo" src="assets/marco-logo.png"/>
-				</a>
-			</div>
-			<div class="appstore">
-				<a href="#">
-					<img class="img-responsive" alt="Apple Store" src="assets/appstore.png"/>
-				</a>
-			</div>
-		</div>		
-	</nav>
+		<nav class="navbar">
+				<div class="navbar-left"> <a href="#" class="logo" ><img src="assets/logo-sm.png" alt="marco logo"></a></div>
+				<div class="navbar-center"></div>
+				<div class="navbar-right"> <a href="#" class="appstore" ><img src="assets/appstore-sm.png" alt="apple store"></a></div>
+		</nav>
 	
 	<header class="intro">	
 				<div id="intro-video">
@@ -43,7 +35,7 @@
 					<div class="img-wrapper">
 						<img class="img-responsive" src="https://placehold.it/1400x360" alt="video placeholder" />
 						<div class="text">
-							<span><span><img class="logo img-responsive" src="assets/marco-logo.png" alt="intro logo" /><span><i class="fa fa-play"></i>Rent things nearby</span>  
+							<span><img class="logo img-responsive" src="assets/logo-sm.png" alt="intro logo" /></span><span><i class="fa fa-play"></i></span><span>Rent things nearby</span> 
 						</div>.
 					</div>
 				</div>
@@ -53,14 +45,14 @@
 	  <section class="discover">
       <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 nomargin-nopadding">
               <div class="section-content vcenter">
-                <h2>Discover</h2>
-                <p>Lorem ipsum..Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. .</p>
+                <h1>Discover</h1>
+                <p>Lorem ipsum..Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque .</p>
                 <a href="#" class="btn" role="button">Download</a>
               </div>
             </div>
-            <div class="hidden-sm col-md-6 col-lg-6">
+            <div class="hidden-sm col-md-6 col-lg-6 nomargin-nopadding">
               <div class="img-wrapper">
                 <img class="img-responsive" src="https://placehold.it/260x315">
               </div>
@@ -72,14 +64,14 @@
     <section class="reserve">
       <div class="container">
         <div class="row">
-            <div class="hidden-sm col-md-6 col-lg-6">
+            <div class="hidden-sm col-md-6 col-lg-6 nomargin-nopadding">
               <div class="img-wrapper">
                 <img class="img-responsive" src="https://placehold.it/260x315">
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 nomargin-nopadding">
               <div class="section-content vcenter">
-                <h2>Reserve</h2>
+                <h1>Reserve</h1>
                 <p>Lorem ipsum..Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis .</p>
                 <a href="#" class="btn" role="button">Download</a>
               </div>
@@ -91,14 +83,14 @@
 		<section class="relax">
       <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 nomargin-nopadding">
               <div class="section-content vcenter">
-                <h2>Relax</h2>
+                <h1>Relax</h1>
                 <p>Lorem ipsum..Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
                 <a href="#" class="btn" role="button">Download</a>
               </div>
             </div>
-            <div class="hidden-sm col-md-6 col-lg-6">
+            <div class="hidden-sm col-md-6 col-lg-6 nomargin-nopadding">
               <div class="img-wrapper">
                 <img class="img-responsive" src="https://placehold.it/260x315">
               </div>
@@ -110,14 +102,14 @@
     <section class="join">
       <div class="container">
         <div class="row">
-            <div class="hidden-sm col-md-6 col-lg-6">
+            <div class="hidden-sm col-md-6 col-lg-6 nomargin-nopadding">
               <div class="img-wrapper">
                 <img class="img-responsive" src="https://placehold.it/260x315">
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 nomargin-nopadding">
               <div class="section-content vcenter">
-                <h2>Join the List</h2>
+                <h1>Join the List</h1>
 									<p>Get the lastest news, updates, and <br/>announcements, including special offers!</p>
 									<input class="form-control" type="email" id="email" />
 									<a href="#" class="btn" role="button">Sign Up</a>
@@ -125,8 +117,7 @@
             </div>
         </div>
       </div>		
-    </section>
-		
+    </section>		
 		
 	</main>
 	
