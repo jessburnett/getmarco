@@ -4,11 +4,18 @@
 	box-sizing: content-box;
 }
 
-body.container-fluid {
+body {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	margin: 0px;
 	padding: 0px;
+}
+
+.container-fluid {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 body.container-fluid#privacy-page, body.container-fluid#reset-password-page, #about-page {
@@ -124,7 +131,6 @@ a:hover{
 
 #intro-video-still {
 	width:100%;
-	margin: 0rem auto -1rem auto;
 }
 
 #intro-video-still .text {
@@ -418,8 +424,9 @@ section.row h2 {
 	letter-spacing: 2px;
 }
 
+/* needs a mobile media query*/
 section.row .container-fluid {
-	margin: 3rem 3rem 0rem 15rem;
+	  margin: 3rem 3rem 0rem 15rem;
     text-align: justify;
 }
 
@@ -438,25 +445,6 @@ section.row .container-fluid {
 section.row .container {
 	margin-top: 0rem;
 }
-
-
-/*@media (min-width: 511px) and (max-width: 700px){	
-	.navbar .container {
-		 max-height: 50px;
-    margin-left: -13px;
-    margin-top: -2rem;
-    margin-bottom: .5rem;
-	}
-
-	.navbar-brand img {
-		width: 60%;
-		margin-bottom: 3px;
-	}	
-}*/
-		
-
-
-
 
 section.row {
 	margin-top: .25rem;
@@ -530,9 +518,6 @@ section.row {
     color: #4a4a4a;
 }
 
-.staff {
-	
-}
 
 .staff .img-responsive {
 	margin: 0 auto;
