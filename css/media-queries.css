@@ -24,6 +24,10 @@
     margin: 2rem auto;
 	}
 	
+	#about-page .container-fluid .staff {
+    padding-left: 0rem;
+}
+	
 	.img-wrapper .text {
 		font-size: 2rem;
 	}
