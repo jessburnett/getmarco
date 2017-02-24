@@ -37,6 +37,10 @@ body.container-fluid#privacy-page, body.container-fluid#reset-password-page, #ab
 		text-align: center;
 }
 
+#locations-page .img-wrapper {
+	margin: 5rem auto;
+}
+
 .img-center {
 	margin: 0 auto;
 }
