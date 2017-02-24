@@ -133,9 +133,14 @@ a:hover{
 }
 
 #intro-video-still i {
-		margin: 0rem 4rem;
+		margin: 0rem;
+	  padding: 0rem;
     font-size: 3.75rem;
     vertical-align: middle;
+}
+
+#intro-video-still .text > span {
+	margin: 0rem 2.15rem;
 }
 
 /******* header intro *******/
@@ -494,10 +499,13 @@ section.row {
 }
 
 #contact-page main .row {
-	padding: 3rem;
 	font-weight: bold;
 	letter-spacing: 1px;
 }
+
+#contact-page main.container-fluid {
+	margin: 5rem auto;
+} 
 
 .contact-labels {
     float: right;
@@ -522,6 +530,9 @@ section.row {
     color: #4a4a4a;
 }
 
+.staff {
+	
+}
 
 .staff .img-responsive {
 	margin: 0 auto;
