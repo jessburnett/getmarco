@@ -22,13 +22,17 @@ body.container-fluid#privacy-page, body.container-fluid#reset-password-page, #ab
 	color: #000!important;.
 }
 
+#home .section-content  {
+    margin-top: 13rem;
+}
+
 #about-page .container-fluid .staff > div {
 	margin: 0;
 	padding: 0;
 }
 
-#about-page .container-fluid .staff{
-	  margin: 5rem;
+#about-page .container-fluid .staff {
+	  margin: 5rem 5rem 2rem 5rem;
     padding-left: 10.25rem;
 		text-align: center;
 }
