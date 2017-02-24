@@ -451,8 +451,8 @@ section.row {
 }
 
 #privacy-page main.container-fluid, #terms-page main.container-fluid {
-	padding: 1rem 3rem;
-  	text-align: justify!important;
+	padding: 0rem;
+  text-align: justify!important;
 	color: #000;
 }
 
@@ -461,6 +461,10 @@ section.row {
 	margin: 1rem 0rem;
 	font-size: 1.25rem;
 	font-weight: bold;
+}
+
+.container-fluid > .container-fluid > section {
+    padding: 2rem;
 }
 
 #privacy-page .address {
