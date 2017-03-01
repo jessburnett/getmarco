@@ -1,23 +1,68 @@
  /*Extra Small Devices, Phones */
 @media screen and (max-width: 767px) {
+	
+	body {
+		text-align: justify;
+	}
+	
+	.section-content input {
+    margin: 0rem 0rem 2.5rem -5rem;
+		width: 92%;
+   }
+	
+	#home section .container {
+		padding: 0rem;
+	}
+	
+	 #intro-video-still .logo {
+   		 display: none;
+		 	 visibility: hidden;
+		}
 
 		.intro-header .img-wrapper {
     	margin: 5rem auto 0 auto;
 		}
 	
-	.container {
-		padding: 2rem;	
+		#intro-video-still i {
+		display: block;
+		margin: 0;
 	}
 	
-	.discover .section-content, .reserve .section-content, .relax .section-content, .join .section-content {
-		 width: 100%;
-    	padding: 0.25rem;
-    	text-align: center;
-    	margin: 0 auto;
+	#intro-video-still .text > span {
+    margin: 0rem;
+	}
+	
+	#intro-video-still .text span:nth-of-type(3){
+		display: block;
+	}
+	
+	#home main > section {
+		border-bottom: 1px solid white;
+	}
+	
+	#home .section-content {
+		margin-top: 3rem;
+    margin-bottom: 3rem;
+	}
+	
+	.reserve .section-content, .join .section-content {
+			margin-left: 12rem;
+			margin-right: 0rem;
+	}
+	
+	#home main a.btn {
+		margin-left: -5rem;
 	}
 	
 	.section-content p {
-			text-align:center;
+    padding-right: 5rem;
+    margin: 3rem auto 3rem -5rem;
+    font-size: 1.75rem;
+	}
+	
+	.section-content h1 {
+		font-size: 28px;
+		margin: 2rem 0rem 2rem -5rem;
 	}
 	
 	#contact-page main.container-fluid {
@@ -36,13 +81,30 @@
 		max-width: 100%;
 	}
 	
+	#reset-password-page .form-group input {
+    width: 60%;
+		float: none;
+		}
+	
+	#reset-password-page form p {
+    margin-bottom: 2rem;
+	}
+	
+	#reset-password-page form {
+		margin-top: 3rem;
+	}
+	
+	#reset-password-page .form-group label {
+    text-align:center;
+	}
+	
 	footer {
 		width: 100%;
 	}
 	
 	.foot-header {
 		padding: 1rem 0rem;
-		font-size: 1rem;
+		font-size: 16px;
 		font-weight: normal;
 		text-decoration: underline;
 	}
@@ -71,7 +133,34 @@
 	
 }
 
-
+@media screen and (min-width: 768px) and (max-width: 991px){	
+	#reset-password-page .form-group label {
+    margin: 0rem  auto 1rem 3rem;
+	}
+	
+	form#reset div[class*="col-"] {
+		margin: 0 auto;
+		padding: 0;
+	}
+	
+		form#reset .form-group input{
+		 float: none;
+	}
+	
+	#home .section-content {
+    margin-top: 5rem;
+		margin-left: 5rem;
+    margin-bottom: 5rem;
+	}
+	
+	.section-content p {
+	  margin: 3.25rem 1rem;
+    margin-left: 0rem;
+    margin-right: 2rem;
+	  font-size: 2rem;
+ 	}
+	
+}
 /***  navbar****/
 
 @media screen and (min-width: 600px) and (max-width: 769px){		
@@ -89,6 +178,40 @@
 	}
 	
 	main.container-fluid { padding: 1rem; }	
+}
+
+
+@media screen and  (min-width: 1200px) and  (max-width: 1300px) {
+	#about-page .container-fluid .staff {
+    margin: 5rem 0rem 1rem 0rem;
+	}
+}
+
+@media screen and  (min-width: 1130px) and  (max-width: 1199px) {
+	#about-page .container-fluid .staff {
+        padding-left: 7.25rem;
+	}
+}
+
+@media screen and  (min-width: 931px) and  (max-width: 1129px) {
+	#about-page .container-fluid .staff {
+    margin: 5rem -7rem 0rem -2.5rem;
+		padding-left: 6.25rem;
+	}
+}
+
+@media screen and  (min-width: 900px) and  (max-width: 930px) {
+	#about-page .container-fluid .staff {
+				margin: 5rem -7rem 2rem -6rem;
+        padding-left: 9.25rem;
+	}
+}
+
+@media screen and  (min-width: 768px) and  (max-width: 899px) {
+	#about-page .container-fluid .staff {
+				margin: 5rem -10rem 2rem -6rem;
+        padding-left: 6.25rem;
+	}
 }
 
 
