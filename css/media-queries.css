@@ -2,28 +2,30 @@
 @media screen and (max-width: 767px) {
 	
 	body {
-		text-align: justify;
+		text-align: center;
+	}
+	
+	main > section * {
+	  margin: 0;
+	  padding: 0;
 	}
 	
 	.section-content input {
-    margin: 0rem 0rem 2.5rem -5rem;
-		width: 92%;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3.5rem!important;
    }
 	
 	#home section .container {
 		padding: 0rem;
 	}
 	
-	 #intro-video-still .logo {
-   		 display: none;
-		 	 visibility: hidden;
-		}
 
-		.intro-header .img-wrapper {
-    	margin: 5rem auto 0 auto;
-		}
+	.intro-header .img-wrapper {
+  	margin: 5rem auto 0 auto;
+	}
 	
-		#intro-video-still i {
+	#intro-video-still i {
 		display: block;
 		margin: 0;
 	}
@@ -40,30 +42,32 @@
 		border-bottom: 1px solid white;
 	}
 	
-	#home .section-content {
-		margin-top: 3rem;
+	#home .section-content, .reserve .section-content {
+		margin-top: 0rem;
     margin-bottom: 3rem;
+    margin-right: 0rem!important;
+    margin-left: 0rem!important;
 	}
 	
-	.reserve .section-content, .join .section-content, .discover .section-content, .relax .section-content {
-			margin-left: 10rem;
-			margin-right: 0rem;
-	}
-	
-	#home main a.btn {
-		margin-left: -5rem;
-	}
-	
+
 	.section-content p {
-    padding-right: 5rem;
-    margin: 3rem auto 3rem -5rem;
+    padding: 0rem 4rem;
     font-size: 1.75rem;
+    margin-top: 0rem;
 	}
 	
 	.section-content h1 {
 		font-size: 28px;
-		margin: 2rem 0rem 2rem -5rem;
+		margin: 4rem 0rem!important;
 	}
+
+  #home .section-content a.btn {
+      margin-top: 0rem;
+  }
+	
+	#home section.discover .img-wrapper, #home section.join .img-wrapper, #home section.relax .img-wrapper, #home section.reserve .img-wrapper {
+    margin-top: 5rem;
+  }
 	
 	#contact-page main.container-fluid {
     margin: 2rem auto;
@@ -71,7 +75,7 @@
 	
 	#about-page .container-fluid .staff {
     padding-left: 0rem;
-}
+  }
 	
 	.img-wrapper .text {
 		font-size: 2rem;
@@ -84,7 +88,7 @@
 	#reset-password-page .form-group input {
     width: 60%;
 		float: none;
-		}
+	}
 	
 	#reset-password-page form p {
     margin-bottom: 2rem;
@@ -112,12 +116,7 @@
 	.foot-link a {
 		padding: .75rem 0rem;
 	}
-	
-	.hidden-sm {
-		display: none!important;
- 		visibility: hidden!important;
-	}
-	
+		
 	.social-icons {
 		margin-top:  2.50rem;
 	}
@@ -130,6 +129,14 @@
 		text-align: center;
 		float: none;
 	}
+	
+	.visible-mobile {
+    display: block!important;
+  }
+
+  .hidden-mobile {
+    display: none!important;
+  }
 	
 }
 
@@ -288,11 +295,11 @@
   
   nav img {
 	  width: 65%;
-	  margin-top: 2px;
+	  margin-top: 0rem;
 	}
 	  
   .left-half img {
-    margin-left: 1rem;
+    margin-left: -3rem;
   }
   
   .right-half img {
@@ -325,7 +332,7 @@
 	}
 	  
   .left-half img {
-    margin-left: 1rem;
+    margin-left: -3rem;
     margin-top: .25rem;
   }
   
@@ -360,7 +367,7 @@
 	}
 	  
   .left-half img {
-    margin-left: 1rem;
+    margin-left: -3rem;
     margin-top: .25rem;
   }
   
@@ -429,8 +436,13 @@
 	}
 	  
   .left-half img {
-    margin-left: 2rem;
+    margin-left: -9rem;
     margin-top: .25rem;
+  }
+  
+  .right-half img {
+    float: right;
+    margin-right: 3rem;
   }
   
   .right-half img {
@@ -463,7 +475,7 @@
 	}
 	  
   .left-half img {
-    margin-left: 2rem;
+    margin-left: -9rem;
     margin-top: .75rem;
   }
   
@@ -497,7 +509,7 @@
 	}
 	  
   .left-half img {
-    margin-left: 2rem;
+    margin-left: -12rem;
     margin-top: .75rem;
   }
   
@@ -531,7 +543,7 @@
 	}
 	  
   .left-half img {
-    margin-left: 3rem;
+    margin-left: 4rem;
     margin-top: .75rem;
   }
   
@@ -565,7 +577,7 @@
 	}
 	  
   .left-half img {
-    margin-left: 3rem;
+   margin-left: 3rem;
     margin-top: .75rem;
   }
   

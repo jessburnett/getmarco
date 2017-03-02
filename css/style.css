@@ -9,11 +9,13 @@ body {
 	font-family: 'Lato', sans-serif;
 	margin: 0px;
 	padding: 0px;
+	text-align: justify;
 }
 
 .container-fluid {
 	margin: 0 auto;
 	width: 100%;
+	height: auto;
 	padding: 0;
 	overflow-x: hidden;
 }
@@ -560,7 +562,7 @@ section.row {
 	margin-top: .5rem;
 }
 
-.intro-header .img-wrapper {
+#home .intro-header .img-wrapper {
 		max-width:100%;
   	margin: 5.5rem auto 0 auto;
   	position: relative;
@@ -619,4 +621,8 @@ section.row {
 
 img caption {
 	display: block;
+}
+
+.visible-mobile {
+  display: none!important;
 }

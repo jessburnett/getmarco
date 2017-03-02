@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-	 <link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/media-queries.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -27,7 +27,7 @@
       <img src="assets/logo-sm.png" alt="Marco Logo">
     </div>
     <div class="right-half">
-      <img src="assets/appstore-sm.png" alt="Apple Store">
+      <a href="https://itunes.apple.com/us/app/marco-find-rent-things-nearby/id1132674979?mt=8"><img src="assets/appstore-sm.png" alt="Apple Store"></a>
     </div>
   </nav>
 	
@@ -37,7 +37,8 @@
 				</div>
 				<div id="intro-video-still" onclick="toggleIntroVideo()">
 					<div class="img-wrapper">
-						<img class="img-responsive" src="assets/videostill-xlg.png" alt="video placeholder" />
+						<img class="img-responsive hidden-mobile" src="assets/videostill-xlg.png" alt="video placeholder" />
+						<img class="img-responsive visible-mobile" src="assets/videostill.png" alt="video placeholder" />
 						<div class="text">
 							<span><i class="fa fa-play"></i></span>
 							<span>Rent things nearby</span>
