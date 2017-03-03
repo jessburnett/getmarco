@@ -1,0 +1,155 @@
+.pink {
+  background-color: #e77d7d;
+}
+
+.pink a.btn:hover, .pink a.btn:active, .pink a.btn:focus {
+  color: #e77d7d;
+}
+
+.blue {
+  background-color: #3aa19B;
+}
+
+.blue a.btn:hover, .blue a.btn:focus, .blue a.btn:active {
+  color: #3aa19B;
+}
+
+.yellow {
+  background-color: #f4ca5c;
+}
+
+.yellow a.btn:hover, .yellow a.btn:focus, .yellow a.btn:active {
+  color: #f4ca5c;
+}
+
+#vendor-intro .img-wrapper {
+  
+}
+
+#vender-intro .img-wrapper .text-wrapper {
+  
+}
+
+.text-wrapper {
+  text-align: center;
+  letter-spacing: 1px;
+  height: 100%;
+  top: 30%;
+  position: absolute;
+  width: 100%;
+}
+
+.text-wrapper > div > p {
+  font-size: 2.5rem;
+  width: 37%;
+  line-height: 30px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+#vendor-intro {
+  margin-top: 75px;
+  height: 430px;
+  background-color: red;
+}
+
+#vendor-intro h1 {
+  letter-spacing: 2px;
+  font-size: 5.15rem;
+}
+
+.navbar {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+nav img {
+  margin-top: 0;
+}
+
+.navbar > .container {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  height: 55px;
+}
+
+.navbar > .container .navbar-brand {
+  margin-left: 30px;
+  width: 70%;
+  margin-top: 3px;
+}
+
+.navbar-right {
+    margin: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-right: 15px;
+    margin-top: -55px;
+}
+
+.navbar-right > ul > li > a {
+  color: #e77d7d;
+}
+
+.navbar-default {
+  background-color: white;
+  border-bottom: none;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #e77d7d;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e77d7d;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #e77d7d;
+    background-color: transparent;
+    display: block;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #4a4a4a;
+    background-color: transparent;
+}
+
+.navbar-toggle {
+  margin: 0px 45px 0px 0px!important;
+}
+
+
+/*div#navbarCollapse {*/
+/*    background: white;*/
+/*    padding: 7rem;*/
+/*    text-align: left;*/
+/*}*/
+
+main > section > .container {
+    height: auto;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+main > section > .container p {
+  width: 34%;
+  margin: 5rem auto;
+}
+
+.section-content {
+  margin-top: 13rem;
+}
+
+footer.container-fluid {
+    padding: 4rem 0rem 1rem;
+    background-color: transparent;
+    color: #4a4a4a;
+    letter-spacing: .5px;
+}
+
+.foot-header, .foot-links a, .social-icons a {
+  color: #4a4a4a;
+}
