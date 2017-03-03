@@ -42,7 +42,7 @@
 
 #vendor-intro {
   position: relative;
-  margin-top: 50px;
+  margin-top: 5px;
   margin-bottom: 5px;
   height: auto;
 }
@@ -122,6 +122,13 @@ nav img {
   margin: 0px 45px 0px 0px!important;
 }
 
+
+/*div#navbarCollapse {*/
+/*    background: white;*/
+/*    padding: 7rem;*/
+/*    text-align: left;*/
+/*}*/
+
 main > section > .container {
     height: auto;
     color: white;
@@ -138,11 +145,22 @@ main > section > .container p {
   margin-top: 13rem;
 }
 
+#vendor-contact .contact-labels title {
+  color: #e77d7d;
+  font-weight: bold;
+}
+
+#vendor-contact main.container-fluid {
+    margin: 3rem 0rem 5rem 0rem;
+}
+
 footer.container-fluid {
-    padding: 4rem 0rem 1rem;
-    background-color: transparent;
-    color: #4a4a4a;
-    letter-spacing: .5px;
+  padding: 2rem 0rem 1rem;
+  background-color: transparent;
+  color: #4a4a4a;
+  letter-spacing: .5px;
+  border-top: 1px solid grey;
+  margin-top: 3rem;
 }
 
 .foot-header, .foot-links a, .social-icons a {
