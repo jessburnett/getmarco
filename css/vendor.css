@@ -145,13 +145,39 @@ main > section > .container p {
   margin-top: 13rem;
 }
 
-#vendor-contact .contact-labels title {
+#vendor-contact .contact-labels title, #vendor-signup .contact-labels title  {
   color: #e77d7d;
   font-weight: bold;
+  font-size: 1.75rem!important;
+}
+
+#vendor-signup .contact-labels {
+  margin-top: 7px;
+}
+
+#vendor-contact .contact-email {
+  font-size: 1.75rem;
 }
 
 #vendor-contact main.container-fluid {
-    margin: 3rem 0rem 5rem 0rem;
+    margin: 8rem 0rem;
+}
+
+#vendor-contact .intro-header .img-wrapper .text,  #vendor-signup .intro-header .img-wrapper .text{
+  padding-top: 6rem;
+}
+
+#vendor-contact .intro-header .img-wrapper, #vendor-signup .intro-header .img-wrapper {
+  padding-bottom: 24%;
+}
+
+#vendor-signup .form-control {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#vendor-signup main.container-fluid > .row {
+  margin: 5rem 0rem;
 }
 
 footer.container-fluid {
@@ -163,6 +189,23 @@ footer.container-fluid {
   margin-top: 3rem;
 }
 
+footer .row {
+  margin-top: 3rem;
+}
+
+#vendor-home footer .row {
+  margin-top: 0rem;
+}
+
+#vendor-home footer.container-fluid {
+  border-top: none;
+}
+
 .foot-header, .foot-links a, .social-icons a {
   color: #4a4a4a;
+}
+
+.social-icons {
+  margin-bottom: -0.5rem;
+  margin-top: 3rem;
 }
