@@ -22,19 +22,12 @@
   color: #f4ca5c;
 }
 
-#vendor-intro .img-wrapper {
-  
-}
-
-#vender-intro .img-wrapper .text-wrapper {
-  
-}
 
 .text-wrapper {
   text-align: center;
   letter-spacing: 1px;
   height: 100%;
-  top: 30%;
+  top: 50%;
   position: absolute;
   width: 100%;
 }
@@ -48,9 +41,18 @@
 }
 
 #vendor-intro {
-  margin-top: 75px;
-  height: 430px;
-  background-color: red;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  height: auto;
+}
+
+#vendor-intro .img-wrapper {
+  
+}
+
+#vender-intro .img-wrapper .text-wrapper {
+  
 }
 
 #vendor-intro h1 {
@@ -119,13 +121,6 @@ nav img {
 .navbar-toggle {
   margin: 0px 45px 0px 0px!important;
 }
-
-
-/*div#navbarCollapse {*/
-/*    background: white;*/
-/*    padding: 7rem;*/
-/*    text-align: left;*/
-/*}*/
 
 main > section > .container {
     height: auto;

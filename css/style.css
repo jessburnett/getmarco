@@ -138,12 +138,12 @@ nav img {
   float: left;
 }
 
-.navbar-right {
+#home .navbar-right {
   width: 15%;
   margin-right: 50px;
 }
 
-.navbar-right a {
+#home .navbar-right a {
   float: right;
 }
 
