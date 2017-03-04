@@ -1,5 +1,14 @@
  /*Extra Small Devices, Phones */
 @media screen and (max-width: 767px) {
+  
+  .p-t-3r {
+     padding: 0rem!important;
+  }
+  
+  .confirm {
+    width: 50%!important;
+  }
+  
   #vendor-signup .intro-header .img-wrapper .text {
     padding-top: 2rem!important;
     font-size: 3.5rem!important;
@@ -929,6 +938,20 @@
   .navbar-header .navbar-brand img {
       width: 45%;
   }
+  
+  #vendor-signup .intro-header .img-wrapper .text, #vendor-contact .intro-header .img-wrapper .text, .signup-confirm .intro-header {
+    padding-top: 1rem!important;
+    font-size: 3.5rem!important;
+  }
+  
+  #vendor-signup .intro-header, #vendor-contact .intro-header, .signup-confirm .intro-header {
+    margin-top: 7rem;
+  }
+  
+  #vendor-contact main.container-fluid {
+    margin: 3rem 0rem!important;
+  }
+  
 }
 
 @media screen and (min-width: 280px) and (max-width: 380px){
