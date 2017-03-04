@@ -678,3 +678,8 @@ img caption {
 .p-t-3r {
   padding: 3rem 0rem;
 }
+
+nav.container.fixed-top {
+  padding-top: .5rem;
+  padding-bottom: .75rem;
+}
