@@ -24,6 +24,10 @@
   .navbar-brand img {
     width: 25%;
   }
+  
+  .navbar-header .navbar-brand img {
+    width: 35%;
+  }
 	
 	body {
 		text-align: center;
@@ -569,6 +573,10 @@
     width: 32%;
     margin-top: 1px;
   }
+  
+  .navbar-header .navbar-brand img {
+    width: 25%;
+  }
 	  
   .left-half img {
     margin-left: -12rem;
@@ -914,5 +922,17 @@
       margin-left: 30px!important;
       width: 55%!important;
       margin-top: 0px!important;
+  }
+}
+
+@media screen and (min-width: 295px) and (max-width: 550px){
+  .navbar-header .navbar-brand img {
+      width: 45%;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 380px){
+  .navbar-header .navbar-brand img {
+      margin-top: -3rem!important;
   }
 }
