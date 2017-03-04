@@ -1,5 +1,17 @@
  /*Extra Small Devices, Phones */
 @media screen and (max-width: 767px) {
+  #vendor-signup .intro-header .img-wrapper .text {
+    padding-top: 2rem!important;
+    font-size: 3.5rem!important;
+  }
+  
+  #vendor-signup main.container-fluid .row:first-of-type p:first-of-type {
+    width: 70%!important;
+  }
+  
+  #vendor-signup .disclaimer {
+    width: 90%!important;
+  }
   
   #about-page .intro-header, #contact-page .intro-header, #privacy-page .intro-header, #terms-page .intro-header {
     margin-top: -5rem;

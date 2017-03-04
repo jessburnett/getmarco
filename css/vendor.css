@@ -115,12 +115,6 @@ nav img {
 }
 
 
-/*div#navbarCollapse {*/
-/*    background: white;*/
-/*    padding: 7rem;*/
-/*    text-align: left;*/
-/*}*/
-
 main > section > .container {
     height: auto;
     color: white;
@@ -157,7 +151,7 @@ main > section > .container p {
 
 #vendor-contact .intro-header .img-wrapper .text,  #vendor-signup .intro-header .img-wrapper .text{
   padding-top: 6rem;
-  font-size: 4.5rem!important;
+  font-size: 4.5rem;
 }
 
 #vendor-contact .intro-header .img-wrapper, #vendor-signup .intro-header .img-wrapper {
