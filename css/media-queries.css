@@ -1,6 +1,14 @@
  /*Extra Small Devices, Phones */
 @media screen and (max-width: 767px) {
   
+  .navbar-fixed-top {
+    height: 70px!important;
+  }
+  
+  button.navbar-toggle {
+    margin-top: 4px!important;
+  }
+  
   .p-t-3r {
      padding: 0rem!important;
   }
