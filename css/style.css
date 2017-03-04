@@ -52,6 +52,17 @@ body.container-fluid#privacy-page, body.container-fluid#reset-password-page, #ab
 
 #locations-page .img-wrapper {
 	margin: .25rem auto;
+	position: relative;
+}
+
+.locations-text {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
 .img-center {

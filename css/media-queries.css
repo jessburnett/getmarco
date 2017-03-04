@@ -153,6 +153,12 @@
   .hidden-mobile {
     display: none!important;
   }
+  
+  .locations-text {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    top: 25%;
+  }
 	
 }
 
