@@ -304,24 +304,45 @@
     font-size: 2rem;
   }
   
-  nav.container {
-    max-height: 50px;
+  #home nav.container {
+    max-height: 42px;
     padding-bottom: 0rem;
+    padding-top: 2rem;
+  }
+  
+  #about-page nav.container, #contact-page nav.container, #locations-page nav.container, #privacy-page nav.container, #terms-page nav.container {
+    padding-top: 1.15rem;
+    padding-bottom: 0rem;
+    max-height: 42px;
   }
   
   nav img {
 	  width: 65%;
 	  margin-top: 0rem;
 	}
+	
+	#terms-page .left-half img {
+	  margin-left: 2rem;
+	  margin-top: -.25rem;
+	}
+	
+	#terms-page .right-half img {
+	  margin-top: -10px;
+	}
 	  
   .left-half img {
-    margin-left: -3rem;
-    margin-top: 0rem;
+    margin-left: -2.5rem;
+    margin-top: -.50rem;
   }
   
   .right-half img {
     margin-right: 2rem;
-    margin-top: -5px;
+    margin-top: -10px;
+  }
+  
+  #about-page .right-half img, #contact-page .right-half img, #locations-page .right-half img, #privacy-page .right-half img, #terms-page .right-half img {
+    margin-right: 2rem;
+    margin-top: -10px;
   }
 
 }
