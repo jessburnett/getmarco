@@ -275,12 +275,12 @@
   
   .left-half img {
     margin-left: -1rem;
-    margin-top: 1.75rem;
+    margin-top: -.50rem;
   }
   
   .right-half img {
     margin-right: 2rem;
-    margin-top: 1.50rem;
+    margin-top: -10px;
   }
   
   #home header {
@@ -314,6 +314,10 @@
     max-height: 50px;
     padding-bottom: 0rem;
   }
+  nav.container {
+    padding-top: .35rem;
+  }
+  
   
   nav img {
 	  width: 75%;
@@ -344,7 +348,7 @@
   }
   
   #home nav.container {
-    max-height: 42px;
+    max-height: 32px;
     padding-bottom: 0rem;
     padding-top: 2rem;
   }
@@ -352,7 +356,7 @@
   #about-page nav.container, #contact-page nav.container, #locations-page nav.container, #privacy-page nav.container, #terms-page nav.container {
     padding-top: 1.15rem;
     padding-bottom: 0rem;
-    max-height: 42px;
+    max-height: 32px;
   }
   
   nav img {
@@ -515,7 +519,7 @@
 	  
   .left-half img {
     margin-left: -9rem;
-    margin-top: .25rem;
+   margin-top: .25rem;
   }
   
   .right-half img {
@@ -554,11 +558,11 @@
 	  
   .left-half img {
     margin-left: -9rem;
-    margin-top: .75rem;
+    margin-top: .25rem;
   }
   
   .right-half img {
-    margin-top: -.25rem;
+    margin-top: -.15rem;
   }
 
 }
@@ -596,8 +600,8 @@
   }
 	  
   .left-half img {
-    margin-left: -12rem;
-    margin-top: .75rem;
+    margin-left: -10rem;
+    margin-top: .25rem;
   }
   
   .right-half img {
@@ -661,6 +665,7 @@
   nav.container {
     max-height: 60px;
     padding-bottom: 0rem;
+    padding-top: .75rem;;
   }
   
   nav img {
@@ -674,8 +679,8 @@
   }
 	  
   .left-half img {
-   margin-left: 3rem;
-    margin-top: .75rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
   }
   
   .right-half img {
