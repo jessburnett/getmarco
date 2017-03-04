@@ -102,8 +102,8 @@ nav img {
 }
 
 .right-half img {
-  float: right;
-  margin-right: 5rem;
+    loat: right;
+    margin-right: 3rem;
 }
 
 .left-half img {
@@ -466,6 +466,34 @@ input {
 	font-weight: bold;
 }
 
+button.btn.pink-button, a.btn.pink-button{
+  display: block;
+	font-size: 14px!important;
+	font-weight: bold;
+	text-transform: uppercase;
+  background-color: white;
+  color: #e67c7c;
+	border: 1px solid #e67c7c!important;
+	border-radius: 2px;
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+button.btn.pink-button:hover, a.btn.pink-button:hover {
+	color: white;
+	background-color: #e67c7c;
+	font-weight: bold;
+}
+
+a.btn.pink-button {
+  display: inline;
+  padding: 1rem 3rem;
+}
+
+
+
 #reset-password-page form {
 	text-align: center;
 	font-size: 14px;
@@ -495,8 +523,9 @@ form#reset div[class*="col-"] {
     font-weight: bold;
 }
 
-#reset-password-page button.btn {
-    margin: 2rem auto;
+#reset-password-page button.btn, button.btn.pink-button {
+  margin: 3rem auto;
+  padding: 1rem 6rem;
 }
 
 #reset-password-page .form-group input {
@@ -578,7 +607,7 @@ section.row {
   	text-align: center;
 		letter-spacing: 3px;
 		color: white;
-		margin-left: -5px;
+		margin-left: 5px!important;
 }
 
 #contact-page main .row {
@@ -625,4 +654,16 @@ img caption {
 
 .visible-mobile {
   display: none!important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.m-l-20 {
+  margin-left: -20px;
+}
+
+.p-t-3r {
+  padding: 3rem 0rem;
 }
