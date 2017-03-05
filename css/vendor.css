@@ -92,7 +92,11 @@ nav img {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #e77d7d;
+  border-color: #e77d7d;
+}
+
+.navbar-toggle:hover, .navbar-toggle:focus {
+  background-color: rgba(205, 139, 131, 0.41)!important;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
