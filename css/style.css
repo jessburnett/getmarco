@@ -259,6 +259,14 @@ a:hover {
   color: #3aa19B;
 }
 
+.pink-background {
+  background-color: #e67c7c;
+}
+
+.blue-background {
+  background-color: #3aa19B;
+}
+
 .yellow {
   color: #f4ca5c;
 }
@@ -704,5 +712,6 @@ nav.container.fixed-top {
 }
 
 header.intro-header {
-  margin-top: 70px;
+    margin-top: 70px;
+    height: 200px;
 }
