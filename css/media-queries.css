@@ -31,7 +31,11 @@
   }
   
   #about-page .intro-header, #contact-page .intro-header, #privacy-page .intro-header, #terms-page .intro-header {
-    margin-top: -5rem;
+    margin-top: -2rem;
+  }
+  
+  #locations-page .intro-header {
+    margin-top: 3.15rem;
   }
   
   .intro-header .img-wrapper .text {
