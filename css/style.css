@@ -715,3 +715,48 @@ header.intro-header {
     margin-top: 70px;
     height: 200px;
 }
+
+.marco-navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: #4a4a4a;
+  height: 75px;
+}
+
+.marco-navbar .marco-left-half {
+  float: left;
+  position: relative;
+  width: 45%;
+  margin-left: 3rem;
+}
+
+.marco-navbar .marco-left-half .img-wrapper, .marco-navbar .marco-left-half .img-wrapper img  {
+  float: left;
+}
+
+.marco-navbar .marco-right-half {
+  float: right;
+  position: relative;
+  width: 45%;
+  margin-right: 3rem;
+}
+
+.marco-navbar .marco-right-half .img-wrapper, .marco-navbar .marco-right-half .img-wrapper img {
+  float: right;
+}
+
+.marco-navbar .img-wrapper {
+  max-width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.marco-navbar .img-wrapper img {
+    width: 60%;
+}
+
+.marco-navbar .container {
+  padding-top: 1.50rem;
+}
