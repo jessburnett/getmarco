@@ -5,6 +5,9 @@
     padding-top: 8rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid #e7e7e7;
+    position: absolute;
+    top: 70px;
+    width: 100%;
   }
   
   .navbar-fixed-top {
