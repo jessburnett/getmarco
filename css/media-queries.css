@@ -105,6 +105,28 @@
      font-size: 28px;
      margin: 4rem 0rem!important;
    }
+   
+  #vendor-home .text-wrapper>div>p {
+    font-size: 1.75rem!important;
+    width: 96%!important;
+    line-height: 22px!important;
+    margin: 0 auto!important;
+    letter-spacing: 1px!important;
+  }
+  
+  #vendor-home #vendor-intro h1 {
+    margin-top: 0rem;
+  }
+   
+  #vendor-home .section-content h1 {
+    font-size: 26px;
+    margin-top: -8rem!important;
+  }
+  #vendor-home main > section > .container p {
+    width: 75%;
+    margin: 5rem auto;
+    text-align: justify;
+  }
    #home .section-content a.btn {
      margin-top: 0rem;
    }
@@ -794,6 +816,12 @@
      letter-spacing: 2px;
      top: 35%;
    }
+   
+  #vendor-intro h1 {
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+  }
+   
  }
  
  @media screen and (min-width: 501px) and (max-width: 767px) {
