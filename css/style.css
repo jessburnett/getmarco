@@ -683,3 +683,7 @@ nav.container.fixed-top {
   padding-top: .5rem;
   padding-bottom: .75rem;
 }
+
+header.intro-header {
+    margin-top: 70px;
+}
