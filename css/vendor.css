@@ -167,7 +167,9 @@ main>section>.container p {
 
 #vendor-contact .intro-header .img-wrapper,
 #vendor-signup .intro-header .img-wrapper {
-  padding-bottom: 24%;
+  position: relative;
+  top: 50%;
+  height: auto;
 }
 
 #vendor-signup .form-control {

@@ -44,7 +44,7 @@
    #privacy-page .intro-header,
    #terms-page .intro-header,
    #locations-page .intro-header {
-     margin-top: -0.75rem;
+     margin-top: -1.85rem;
    }
    /*#locations-page .intro-header {*/
    /*  margin-top: 3.15rem;*/
@@ -102,10 +102,13 @@
      margin-top: -1rem;
    }
    .section-content h1 {
-     font-size: 28px;
-     margin: 4rem 0rem!important;
-   }
-   
+    font-size: 4rem;
+    margin: 4rem;
+    text-align: center;
+  }
+  .tac {
+    text-align: center;
+  }
   #vendor-home .text-wrapper>div>p {
     font-size: 1.75rem!important;
     width: 96%!important;
