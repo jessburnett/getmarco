@@ -244,18 +244,19 @@
      padding: 0rem;
    }
    .left-half img {
-     margin-left: -1rem;
-     margin-top: -.50rem;
+      margin-left: -1rem;
+      margin-top: 1.75rem;
+      width: 80%;
    }
    .right-half img {
      margin-right: 2rem;
-     margin-top: -10px;
+     margin-top: 1.25rem;
    }
    #home header {
      margin-top: 13px;
      margin-bottom: .25rem;
    }
-   #intro-video-still i {
+   #intro-video-still i {file:///home/chronos/u-2021656c1bd2ae1123521e68896b43a9803944d4/Downloads/www/getmarco/workspace/assets/santabarbara-org.png
      font-size: 5rem;
    }
    #intro-video-still .text span:nth-of-type(2) {
@@ -278,17 +279,28 @@
      padding-bottom: 0rem;
    }
    nav.container {
-     padding-top: .35rem;
+     padding-top: .50rem;
    }
    nav img {
      width: 75%;
    }
    .left-half img {
      margin-left: -1rem;
+     margin-top: 1rem;
    }
    .right-half img {
-     margin-right: 2rem;
+      margin-right: 2rem;
+      margin-top: .75rem;
    }
+   
+  #home .right-half img {
+    margin-top: .50rem;
+  }
+  
+  nav.container.fixed-top {
+    padding-top: 0rem!important;
+    padding-bottom: .50rem!important;
+  }
  }
  
  @media screen and (min-width: 351px) and (max-width: 465px) {
@@ -328,11 +340,11 @@
    }
    .left-half img {
      margin-left: -2.5rem;
-     margin-top: -.50rem;
+     margin-top: -1rem;
    }
    .right-half img {
      margin-right: 2rem;
-     margin-top: -10px;
+     margin-top: -13px;
    }
    #about-page .right-half img,
    #contact-page .right-half img,
@@ -814,6 +826,9 @@
    #vendor-contact main.container-fluid {
      margin: 3rem 0rem!important;
    }
+   #intro-video-still {
+    margin-top: -16px;
+  }
  }
  
  @media screen and (min-width: 280px) and (max-width: 380px) {
@@ -821,3 +836,19 @@
      margin-top: -3rem!important;
    }
  }
+ 
+  @media screen and (min-width: 200px) and (max-width: 350px) {
+     
+  #locations-page .intro-header {
+    margin-top: 3.60rem!important;
+  }
+  
+  nav.container.fixed-top {
+    padding-top: .5rem;
+    padding-bottom: .75rem;
+  }
+  
+  #about-page .intro-header, #contact-page .intro-header, #privacy-page .intro-header, #terms-page .intro-header {
+    margin-top: -1.5rem;
+  }
+}
