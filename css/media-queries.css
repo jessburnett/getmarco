@@ -42,12 +42,13 @@
    #about-page .intro-header,
    #contact-page .intro-header,
    #privacy-page .intro-header,
-   #terms-page .intro-header {
-     margin-top: -2rem;
-   }
+   #terms-page .intro-header,
    #locations-page .intro-header {
-     margin-top: 3.15rem;
+     margin-top: -0.75rem;
    }
+   /*#locations-page .intro-header {*/
+   /*  margin-top: 3.15rem;*/
+   /*}*/
    .intro-header .img-wrapper .text {
      font-size: 2.5rem;
    }
