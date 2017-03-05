@@ -2,7 +2,9 @@
   background-color: #e77d7d;
 }
 
-.pink a.btn:hover, .pink a.btn:active, .pink a.btn:focus {
+.pink a.btn:hover,
+.pink a.btn:active,
+.pink a.btn:focus {
   color: #e77d7d;
 }
 
@@ -10,7 +12,9 @@
   background-color: #3aa19B;
 }
 
-.blue a.btn:hover, .blue a.btn:focus, .blue a.btn:active {
+.blue a.btn:hover,
+.blue a.btn:focus,
+.blue a.btn:active {
   color: #3aa19B;
 }
 
@@ -18,10 +22,11 @@
   background-color: #f4ca5c;
 }
 
-.yellow a.btn:hover, .yellow a.btn:focus, .yellow a.btn:active {
+.yellow a.btn:hover,
+.yellow a.btn:focus,
+.yellow a.btn:active {
   color: #f4ca5c;
 }
-
 
 .text-wrapper {
   text-align: center;
@@ -32,7 +37,7 @@
   width: 100%;
 }
 
-.text-wrapper > div > p {
+.text-wrapper>div>p {
   font-size: 2.5rem;
   width: 37%;
   line-height: 30px;
@@ -61,28 +66,28 @@ nav img {
   margin-top: 0;
 }
 
-.navbar > .container {
+.navbar>.container {
   margin-top: 15px;
   margin-bottom: 0px;
   height: 55px;
 }
 
-.navbar > .container .navbar-brand {
+.navbar>.container .navbar-brand {
   margin-left: 30px;
   width: 70%;
   margin-top: 3px;
 }
 
 .navbar-right {
-    margin: 0;
-    margin-right: 0;
-    text-transform: uppercase;
-    font-size: 16px;
-    padding-right: 15px;
-    margin-top: -55px;
+  margin: 0;
+  margin-right: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-right: 15px;
+  margin-top: -55px;
 }
 
-.navbar-right > ul > li > a {
+.navbar-right>ul>li>a {
   color: #e77d7d;
 }
 
@@ -95,7 +100,8 @@ nav img {
   border-color: #e77d7d;
 }
 
-.navbar-toggle:hover, .navbar-toggle:focus {
+.navbar-toggle:hover,
+.navbar-toggle:focus {
   background-color: rgba(205, 139, 131, 0.41)!important;
 }
 
@@ -103,30 +109,30 @@ nav img {
   background-color: #e77d7d;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: #e77d7d;
-    background-color: transparent;
-    display: block;
+.navbar-default .navbar-nav>li>a {
+  color: #e77d7d;
+  background-color: transparent;
+  display: block;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #4a4a4a;
-    background-color: transparent;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #4a4a4a;
+  background-color: transparent;
 }
 
 .navbar-toggle {
   margin: 0px 45px 0px 0px!important;
 }
 
-
-main > section > .container {
-    height: auto;
-    color: white;
-    text-align: center;
-    padding-bottom: 60px;
+main>section>.container {
+  height: auto;
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
-main > section > .container p {
+main>section>.container p {
   width: 34%;
   margin: 5rem auto;
 }
@@ -135,7 +141,8 @@ main > section > .container p {
   margin-top: 13rem;
 }
 
-#vendor-contact .contact-labels title, #vendor-signup .contact-labels title  {
+#vendor-contact .contact-labels title,
+#vendor-signup .contact-labels title {
   color: #e77d7d;
   font-weight: bold;
   font-size: 1.75rem!important;
@@ -150,14 +157,16 @@ main > section > .container p {
 }
 
 #vendor-contact main.container-fluid {
-    margin: 8rem 0rem;
+  margin: 8rem 0rem;
 }
 
-#vendor-contact .intro-header .img-wrapper .text,  #vendor-signup .intro-header .img-wrapper .text{
+#vendor-contact .intro-header .img-wrapper .text,
+#vendor-signup .intro-header .img-wrapper .text {
   font-size: 4.5rem;
 }
 
-#vendor-contact .intro-header .img-wrapper, #vendor-signup .intro-header .img-wrapper {
+#vendor-contact .intro-header .img-wrapper,
+#vendor-signup .intro-header .img-wrapper {
   padding-bottom: 24%;
 }
 
@@ -166,7 +175,7 @@ main > section > .container p {
   margin: 0 auto;
 }
 
-#vendor-signup main.container-fluid > .row {
+#vendor-signup main.container-fluid>.row {
   margin: 3rem 0rem;
 }
 
@@ -175,11 +184,12 @@ main > section > .container p {
   text-align: center;
 }
 
-#vendor-signup main.container-fluid .row:first-of-type p:first-of-type, .confirm {
-    width: 28%;
-    font-size: 18px;
-    letter-spacing: 1px;
-    margin: 2rem auto;
+#vendor-signup main.container-fluid .row:first-of-type p:first-of-type,
+.confirm {
+  width: 28%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 2rem auto;
 }
 
 .confirm {
@@ -188,10 +198,10 @@ main > section > .container p {
 }
 
 #vendor-signup .disclaimer {
-    width: 33%;
-    font-size: 12px;
-    margin: 0 auto;
-    letter-spacing: 1px;
+  width: 33%;
+  font-size: 12px;
+  margin: 0 auto;
+  letter-spacing: 1px;
 }
 
 footer.container-fluid {
@@ -220,7 +230,9 @@ footer .row {
   padding: 1rem 6rem;
 }
 
-.foot-header, .foot-links a, .social-icons a {
+.foot-header,
+.foot-links a,
+.social-icons a {
   color: #4a4a4a;
 }
 
