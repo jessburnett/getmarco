@@ -1,6 +1,13 @@
  /*Extra Small Devices, Phones */
  
  @media screen and (max-width: 767px) {
+    .container-fluid section {
+      text-align: justify;
+    }
+    #about-page .container-fluid .staff {
+      margin: 3rem 0rem 0rem 1rem;
+      text-align: center;
+    }
    .navbar-collapse {
      background: white;
      padding-top: 8rem;
@@ -134,6 +141,11 @@
    footer {
      width: 100%;
    }
+   
+   footer.container-fluid {
+     padding-top: 2rem;
+   }
+   
    .foot-header {
      padding: 1rem 0rem;
      font-size: 16px;
@@ -236,6 +248,11 @@
  /***  navbar****/
  
  @media screen and (min-width: 0px) and (max-width: 325px) {
+   .fixed-top .right-half img {
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+   
    nav img {
      width: 75%;
    }
@@ -248,6 +265,11 @@
       margin-top: 1.75rem;
       width: 80%;
    }
+   .fixed-top .left-half img {
+      margin-left: -1rem;
+      margin-top: 1.25rem;
+      width: 80%;
+   }
    .right-half img {
      margin-right: 2rem;
      margin-top: 1.25rem;
@@ -256,7 +278,7 @@
      margin-top: 13px;
      margin-bottom: .25rem;
    }
-   #intro-video-still i {file:///home/chronos/u-2021656c1bd2ae1123521e68896b43a9803944d4/Downloads/www/getmarco/workspace/assets/santabarbara-org.png
+   #intro-video-still i {
      font-size: 5rem;
    }
    #intro-video-still .text span:nth-of-type(2) {
@@ -352,7 +374,7 @@
    #privacy-page .right-half img,
    #terms-page .right-half img {
      margin-right: 2rem;
-     margin-top: -10px;
+     margin-top: -13px;
    }
  }
  
@@ -844,8 +866,9 @@
   }
   
   nav.container.fixed-top {
-    padding-top: .5rem;
-    padding-bottom: .75rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: -.25rem;
   }
   
   #about-page .intro-header, #contact-page .intro-header, #privacy-page .intro-header, #terms-page .intro-header {
